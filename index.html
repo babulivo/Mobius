@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Möbius</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_main _container">
+                <nav class="header_menu menu d-flex">
+                    <img src="image/Logo.png" alt="header-logo">
+                    <ul class="menu_main">
+                        <li class="menu_item">
+                            <a class="menu_link" href="#about">
+                                about
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#overview">
+                                overview
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#specs">
+                                specs
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#review">
+                                review
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#collabs">
+                                collabs
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-header" onclick="openModal('modal-1')">support</button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <img src="image/bg-logo.png" class="bg-hero" alt="bg-logo">
+                <div class="hero_section _container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col col-xl-4 content-text">
+                            <h1 class="hero-header">Möbius</h1>
+                            <hr class="hero-hr">
+                            <div class="hero-main-text">Endless possibilities <br>in your hands.</div>
+                            <a href="#join-us" class="btn btn-hero">EXPLORE Möbius</a>
+                        </div>
+                        <div class="col col-xl-1"></div>
+                        <div class="col col-xl-7 content-photo">
+                            <div class="photo">
+                                <img src="image/Mouse.png.png" alt="mouse">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="about-content _container">
+                    <div class=" content">
+                        <div class=" about-first-content">
+                            <div class="about-first-text">In 2023, our team of engineers and designers faced the
+                                limitations of traditional form factors when working on a new computer mouse project. We
+                                wanted to create a mouse that was not only ergonomic and functional, but could also
+                                adapt to individual user needs.
+                            </div>
+                            <hr class="dark-hr" />
+                            <img src="image/videos.png" alt="videos">
+                        </div>
+                        <div class=" about-second-content">
+                            <div class="about-second-gif"><img src="image/circle_gif.gif" alt="sphere"></div>
+                            <hr class="dark-hr">
+                            <div class="about-second-text">
+                                The name of the mouse is inspired by the <strong>Mobius</strong> strip, an infinite
+                                surface with one
+                                side. This is also the case with our product: by customizing the mouse, each user
+                                creates one of an infinite number of variations of the same mouse.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="overview" id="overview">
+                <div class="overview-content _container">
+                    <div class="overview-header header-block">overview</div>
+                    <div class="overview-blocks">
+                        <div class="overview-blocks-images">
+                            <div class="img-container">
+                                <img src="image/Mouse.png" alt="mouse" class="img-frst">
+                            </div>
+                            <div class="img-container">
+                                <img src="image/backside.png" alt="mouse" class="img-snd">
+                            </div>
+                            <div class="img-container">
+                                <img src="image/other.png" alt="mouse" class="img-thrd">
+                            </div>
+                            <div class="img-frth-container">
+                                <img src="image/frontMouse.png" alt="mouse" class="img-frth">
+                            </div>
+                        </div>
+                        <img class="overview-blocks-center-line" height="1298px" src="image/line.svg" alt="line">
+                        <div class="overview-blocks-text">
+                            <div class="overview-text-first">
+                                <div class="overview-text-header over-header">
+                                    PAW3395 Sensor
+                                </div>
+                                <div class="overview-text over-text">
+                                    The SkyPAD Möbius is equipped with the PixArt PAW3395. According to specifications,
+                                    the
+                                    3395 is capable of up to 26,000 CPI, as well as a maximum tracking speed of 650 IPS,
+                                    which equals 16.51 m/s. Out of the box, five pre-defined CPI steps are available:
+                                    400,
+                                    800, 1600, 3200, and 5000.
+                                </div>
+                            </div>
+                            <div class="overview-text-scnd">
+                                <div class="overview-text-header over-header">
+                                    Pure Teflon Feets
+                                </div>
+                                <div class="overview-text over-text">
+                                    Virgin PTFE mouse feet offer less friction, are smoother, and last longer than OEM
+                                    feet that have mixed combinations of polymers. Once you experience the unmatched
+                                    smoothness, control, and responsiveness of pure Teflon feet, you'll never settle for
+                                    anything less.
+                                </div>
+                            </div>
+                            <div class="overview-text-thrd">
+                                <div class="overview-text-header over-header">
+                                    Seperate Panels
+                                </div>
+                                <div class="overview-text over-text">
+                                    With the detachable panel system, this mouse transcends the limitations of a single
+                                    design. It becomes a versatile tool that adapts to your needs and evolves with your
+                                    style, offering unmatched customization and long-lasting value.
+                                </div>
+                            </div>
+                            <div class="overview-text-fth">
+                                <div class="overview-text-header over-header">
+                                    Only 52 grams
+                                </div>
+                                <div class="overview-text over-text">
+                                    The ultra-lightweight design minimizes inertia, enabling lightning-fast flicks and
+                                    effortless glides across your mousepad. Say goodbye to fatigue and experience
+                                    flawless control.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="specs" id="specs">
+                <div class="specs-content _container">
+                    <div class="specs-header header-block">specifications</div>
+                    <hr class="dark-hr" />
+                    <div class="specs-settings">
+                        <div class="specs-set-first">
+                            <p class="specs-set-text"><strong>Sensor Model:</strong> PixArt PAW 3395</p>
+                            <p class="specs-set-text"><strong>Switches Model</strong>: Huano Pink Dot, , 80 Million
+                                Click</p>
+                            <p class="specs-set-text"><strong>Connection Method:</strong> 2.4Ghz/Bluetooth/USB-C</p>
+                            <p class="specs-set-text"><strong>Polling Rate:</strong> 125/250/500/1000/4000 Hz</p>
+                            <p class="specs-set-text"><strong>DPI:</strong> 800/1600/2400/3200/5000/26000</p>
+                            <p class="specs-set-text"><strong>Acceleration:</strong> 50G ACC</p>
+                        </div>
+                        <div class="specs-set-second">
+                            <p class="specs-set-text"><strong>Theoretical Battery Life:</strong> Up to 200Hrs</p>
+                            <p class="specs-set-text"><strong>System Support:</strong> Window7/8/10/11/Mac Os</p>
+                            <p class="specs-set-text"><strong>Height:</strong> 118 Mm</p>
+                            <p class="specs-set-text"><strong>Width:</strong> 60 Mm</p>
+                            <p class="specs-set-text"><strong>Depth:</strong> 39 Mm</p>
+                            <p class="specs-set-text"><strong>Weight:</strong> 52g (With basic panels)</p>
+                        </div>
+                    </div>
+                    <hr class="dark-hr" />
+                </div>
+            </section>
+            <section class="review" id="review">
+                <div class="review-content _container">
+                    <div class="review-header header-block">REVIEWS</div>
+                    <div class="review-cards">
+                        <div class="review-card">
+                            <div class="review-card-header">
+                                This panels are <br> a game-changer.
+                            </div>
+                            <div class="review-card-body">
+                                I found the perfect fit for my hand, and the different styles are fun to switch between.
+                            </div>
+                            <div class="review-card-footer">
+                                <div class="card-person-image">
+                                    <img src="image/review/person1.png" alt="person1">
+                                </div>
+                                <div class="card-person-body">
+                                    <div class="card-person-header">
+                                        <strong>Phoebe Philo</strong>
+                                    </div>
+                                    <div class="card-person-thumb">
+                                        Fashion <br>
+                                        designer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-card-header" style="margin-bottom: 48px;">
+                                Love the weight!
+                            </div>
+                            <div class="review-card-body">
+                                This mouse is incredibly light, making it effortless to move around. My wrist feels much
+                                better after long gaming sessions.
+                            </div>
+                            <div class="review-card-footer">
+                                <div class="card-person-image">
+                                    <img src="image/review/person2.png" alt="person1">
+                                </div>
+                                <div class="card-person-body">
+                                    <div class="card-person-header">
+                                        <strong>Vedal</strong>
+                                    </div>
+                                    <div class="card-person-thumb">
+                                        Neuro-Sama <br>
+                                        Creator
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-card-header">
+                                Teflon feets <br>
+                                are incredible!
+                            </div>
+                            <div class="review-card-body">
+                                My mouse glides so smoothly across the pad, making it much easier to track targets and
+                                aim accurately.
+                            </div>
+                            <div class="review-card-footer">
+                                <div class="card-person-image">
+                                    <img src="image/review/person3.png" alt="person1">
+                                </div>
+                                <div class="card-person-body">
+                                    <div class="card-person-header">
+                                        <strong>s1mple</strong>
+                                    </div>
+                                    <div class="card-person-thumb">
+                                        Ukrainian professional CS:GO player
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="collabs" id="collabs">
+                <div class="collabs-content _container">
+                    <div class="collabs-header header-block">Get Plugged In, Pilots!</div>
+                    <div class="collabs-main">
+                        Evangelion x SkyPAD <br>
+                        Collaboration Coming Soon!
+                    </div>
+                    <div class="collabs-images">
+                        <img src="/image/collab/left2.png" class="first" alt="left-picture">
+                        <img src="/image/collab/middle.png" class="second" alt="middle-picture">
+                        <img src="/image/collab/right2.png" class="third" alt="right-picture">
+                    </div>
+                </div>
+            </section>
+            <section class="pre-footer" id="join-us">
+                <div class="pre-footer-content _container">
+                    <img src="/image/preFooter.png" class="bg-image-prefooter" alt="prefooter-image">
+                    <span></span>
+                    <div class="pre-footer-text-content">
+                        <div class="pre-footer-header">
+                            join us!
+                        </div>
+                        <div class="pre-footer-main">
+                            Get 10% off on your first order when you sign up for our e-mail to get the latest deals, new
+                            arrivals, special events and much more.
+                        </div>
+                        <div class="form">
+                            <form class="pre-footer-form" id="subscribeForm" action="">
+                                <div class="process" id="process">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <button type="submit" class="btn-form">Subscribe</button>
+                                </div>
+                                <div class="successful hidden" id="successMessage">
+                                    Thank you for subscribing!
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <button class="btn btn-footer" onclick="openModal('modal-1')">support</button>
+            <div class="footer-content _container">
+                <div class="footer-precontent">
+                    <img src="image/circle_gif.gif" height="233px" width="233px" alt="sphere">
+                </div>
+                <div class="footer-main-content">
+                    <div class="footer-mark" style="opacity: 0.6;">
+                        © 2024 SkyPAD. All rights reserved
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="menu_main">
+                            <li class="menu_item">
+                                <a class="menu_link" href="#about">
+                                    about
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link" href="#overview">
+                                    overview
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link" href="#specs">
+                                    specs
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link" href="#review">
+                                    review
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a class="menu_link" href="#collabs">
+                                    collabs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="modal-1" class="jw-modal">
+        <div class="jw-modal-body">
+            <img src="image/circle_gif.gif" class="circle-modal" alt="circle">
+            <button class="close-mod" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+            <form class="modal-form" id="supportForm" action="#">
+                <div class="desc-modal">
+                    <label class="modal-label" for="desctext">Description</label>
+                    <textarea name="desctext" id="desctext" required></textarea>
+                </div>
+                <div class="modal-email">
+                    <label class="modal-label" style="display: block;" for="desctext">E-mail</label>
+                    <input type="email" name="email" id="emailmod" required>
+                    <button type="submit" class="modal-btn btn">Send</button>
+                </div>
+                
+            </form>
+            <div id="supportSuccessMsg" class="support-success hidden">Your request is created and sent to the manager. You will be contacted in a few minutes...</div>
+        </div>
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/57931d4320.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
